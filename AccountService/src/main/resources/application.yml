@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: banking-account-api
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: banking
+
+server:
+  port: 9016
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka/
